@@ -4,9 +4,11 @@ import React from 'react';
 const VideoDetail = ({ choosenVideo }) => {
 	if(!choosenVideo) {
 		return (
-			<div>
-				loading...
-			</div>
+	  		<div className="cssloader-warpper">
+				<div className="purecss-loader">
+					loading...
+				</div>
+	  		</div>
 		);
 	}
 	
